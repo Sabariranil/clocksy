@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+     *{
+        margin: 0;
+        padding: 0;
+
+      }
+      body{
+        background-color:rgba(233, 232, 238, 0.993);
+      }
+     
+      ul {
+        
+        position: sticky;
+            z-index: 1000;
+            top: 0;
+            list-style-type: style ;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content:end;
+            padding: 10px 0;
+      
+      }
+      li {
+        display: inline-block;
+        margin-top: 20px;
+      }
+      li a {
+        text-decoration: none;
+        padding: 10px 5px;
+        text-align: center;
+        font-size: large;
+        color: white;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+      @media (max-width: 768px) 
+      {
+        ul{
+          padding-left:100px;
+        }
+        .banner{
+          height:auto;
+        }
+      }
+
+      .login{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+input {
+    width: 94%;
+    padding: 10px;
+    border: 1px solid rgb(216, 215, 215);
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(76, 172, 76);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    
+}
+button a{
+  text-decoration: none;
+  color: white;
+}
+
+button:hover {
+    background-color: rgb(59, 145, 59);
+}
+footer {
+        background-color:black;
+        }
+ 
+   
+      .foot{
+        display: inline-block;
+        padding: 40px 0;
+        margin: 40px;
+        margin-right: 80px;
+        margin-bottom: 40px;
+        color: white;
+      
+        
+      }
+      .cost{
+       margin: 10px;
+      
+      }
+
+    </style>
+  </head>
+  <body>
+    <ul>
+     
+      <li>
+        <i class="fa-solid fa-house"></i>
+        <a href="index.html">Home</a></li>
+        &nbsp;&nbsp;
+      <li>
+        <i class="fa-solid fa-right-to-bracket"></i>
+        <a href="login.html">Login</a>
+      </li> &nbsp;&nbsp;
+    </li>
+      <li>
+        <i class="fa-brands fa-product-hunt"></i>
+        <a
+          href="product.html"
+          >Product</a
+        >
+      </li> &nbsp;&nbsp;
+      <li>
+        <i class="fa-solid fa-cart-shopping"></i><a
+          href=""
+          >Cart</a
+        >
+      </li>
+    </ul>
+    
+    <br></br><br>
+    <center>
+        <div class="login">
+          <h2>Login</h2><br>
+             <form>
+              <label>Email<br></label>
+              <input type="text" /><br /><br />
+              </label>Password <br></label>
+              <input  type="password" />
+            </form>
+        <br /><br />
+            <button><a href="webpage.html">Login</a></button>
+          </center>
+        </div>
+       <br><br><br>
+       <footer>
+        
+        <img src="image/logo.png" alt="" height="150px" width="150px">
+        <div class="foot">
+          <h4>CUSTOMER SERVICE</h4>
+           <p class="cost">Payment Options </p>
+          <p class="cost">Track Order</p>
+          <p class="cost">Find a Store</p>
+          <p class="cost">Encircle Program</p>
+      </div>
+      <div class="foot">
+        <h4>POLICIES</h4>
+         <p class="cost">Brand Protection </p>
+        <p class="cost">Cancellation</p>
+        <p class="cost">Shipping</p>
+        <p class="cost">Warranty Policies</p>
+    </div>
+    <div class="foot">
+      <h4>TEARMS & CONDITIONS</h4>
+       <p class="cost">Shipping</p>
+      <p class="cost">Return Policiess</p>
+      <p class="cost">Privacy Policy</p>
+      <p class="cost">FAQs</p>
+     
+  </div>
+  <div class="foot">
+    <h4>ABOUT CLOCKSY</h4>
+     <p class="cost">About Us</p>
+    <p class="cost">Help</p>
+    <p class="cost">Contact</p>
+    <p class="cost">Careers</p>
+   
+  </div>
+  <center>
+    <img src="image/icons8-facebook-30.png" alt="">
+    <img src="image/icons8-instagram-30.png" alt="">
+    <img src="image/icons8-whatsapp-30.png" alt="">
+  </center>
+   
+   <hr><br>
+   <center>
+    <p style="color: white;">designed by sabari</p>
+   </center>
+  
+  
+  
+        </footer>
+  </body>
+</html>
